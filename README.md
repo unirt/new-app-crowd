@@ -19,3 +19,9 @@ builders.flash の [AWS Amplify と Amazon Rekognition を使って施設の混�
 12. 管理者画面でカメラをスタートし、動作を確認する
 13. （必要であれば）`amplify publish` で React アプリを Amplify Hosting にデプロイする
 14. `amplify delete` で環境を削除する
+
+## 動作確認環境
+以下の環境で動作確認をしました。その他の依存については `package.json` をご確認ください。
+- Node: v20.10.0
+- npm: 10.2.3
+- Amplify CLI: 12.10.1
